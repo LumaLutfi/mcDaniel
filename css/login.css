@@ -1,0 +1,103 @@
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+    box-sizing: border-box;
+    background: #ebebeb;
+}
+
+body, html {
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+.wrap-login100{
+  width: 560px;
+  background: #fff;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+}
+
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background:  white;
+    width: 100%;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    
+}
+.form input{
+    font-family:"Roboto", sans-serif;
+    height: 55px;
+    background: white;
+    width: 100%;
+    border: 2px solid #e6e6e6;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.2;
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+.form button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 150px;
+  height: 55px;
+  background-color: #333333;
+  border-radius: 27px;
+}
+.form button:hover, .form button:active{
+    background: #43A047;
+}
+.form .message{
+    margin: 15px 0 0;
+    color: #666666;
+    font-size: 12px;
+
+}
+.form .message a{
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 15px 0 0;
+}
+.form .register-form{
+    display: none;
+}
+h1{
+    text-align: center;
+}
